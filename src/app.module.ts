@@ -6,6 +6,7 @@ import { UserModule } from './user/user.module';
 import { WorkspacesModule } from './workspaces/workspaces.module';
 import { BoardsModule } from './boards/boards.module';
 import { ColumnsModule } from './columns/columns.module';
+import { TasksModule } from './tasks/tasks.module';
 
 @Module({
   imports: [
@@ -14,6 +15,7 @@ import { ColumnsModule } from './columns/columns.module';
     WorkspacesModule,
     BoardsModule,
     ColumnsModule,
+    TasksModule,
   ],
 
   controllers: [AppController],
